@@ -36,6 +36,7 @@ Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
 ```
+
 models.py
 from django.db import models
 from django.contrib import admin
@@ -54,6 +55,7 @@ admin.py
 from django.contrib import admin
 from .models import Vehicle_DB,Vehicle_DBAdmin
 admin.site.register(Vehicle_DB,Vehicle_DBAdmin)
+
 
 ```
 
